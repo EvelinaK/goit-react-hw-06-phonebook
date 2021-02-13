@@ -1,0 +1,85 @@
+@import "styles/shared.scss";
+html {
+  font-family: "Molengo", sans-serif;
+}
+.page-header {
+  background-color: $formcolor;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.2;
+}
+
+.user-info-form {
+  display: flex;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  transition: all 0.2s ease;
+}
+
+.form-input {
+  height: 40px;
+  padding: 0;
+  border: none;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.submit-form-btn {
+  border: none;
+  padding: 0 10px;
+  border: none;
+  width: 24%;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: $white;
+  font-weight: 700;
+  background-color: $blue;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.submit-form-btn:hover {
+  background: #fff;
+  color: rgb(202, 236, 216);
+  box-shadow: 0 0 15px rgba(191, 248, 214, 0.8);
+}
+header {
+  text-align: center;
+  margin: 30px;
+}
+header h1 {
+  font-family: "Leckerli One", cursive;
+  font-size: 4rem;
+  margin: 0px;
+  color: brown;
+  text-shadow: 2px 2px 5px white;
+}
+header h2 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 2.7rem;
+  text-transform: uppercase;
+  margin-top: -20px;
+  margin-bottom: 90px;
+  color: gray;
+  text-shadow: 2px 2px 5px white;
+}
+body {
+  margin: 0;
+  background: url("http://juliusanghelina.ro/personal-projects/forget-book/wrapper.png");
+  // background-color: #22b24b;
+}
+.wrapper {
+  width: 1024px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 14px rgb(66, 66, 66);
+}

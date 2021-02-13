@@ -1,0 +1,40 @@
+@import "styles/shared.scss";
+
+.list {
+  width: 65%;
+  text-align: center;
+  list-style: none;
+}
+.actions {
+  display: flex;
+  margin: 10px 5px;
+  justify-content: flex-end;
+}
+.listItem {
+  margin-bottom: 20px;
+}
+
+.listItemText {
+  margin-right: 10px;
+}
+
+.button {
+  border-radius: 5px;
+  border: none;
+  margin-left: 20px;
+  color: $red;
+  font-size: 18px;
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  background-color: $blue;
+  &:hover,
+  &:focus {
+    background-color: $green;
+  }
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
